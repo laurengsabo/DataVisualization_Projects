@@ -1,0 +1,106 @@
+body {
+  font-family: sans-serif;
+}
+
+.title {
+  color: navy;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+#region-label {
+  color: navy;
+  margin: 0;
+  font-weight: normal;
+}
+
+.plots-window {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.plot-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 500px;
+  padding: 15px;
+}
+
+.dropdown-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.dropdown-line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dropdown-line label {
+  font-size: 0.9em;
+  color: #333;
+  margin-right: 5px;
+}
+
+.dropdown-line select {
+  padding: 1px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  font-size: 0.9em;
+  width: 60%;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+.scatterplot {
+  width: 500px;
+  height: 400px;
+}
+
+.legend {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.legend-color {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+#back-button {
+  padding: 5px 10px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.tooltip {
+  opacity: 0;
+  position: absolute;
+  color: white;
+  padding: 8px;
+  font-size: 12px;
+  border-radius: 4px;
+  pointer-events: none;
+  z-index: 10;
+  line-height: 1.5;
+}
+
+.tooltip strong {
+  font-weight: bold;
+}

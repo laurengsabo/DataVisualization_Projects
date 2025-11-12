@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>College Comparison</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
+<body>
+    <div class="title">
+        <h1> Colleges in the US by Region</h1>
+    </div>
+
+    <h2 id="region-label"></h2>
+
+    <div class="plots-window">
+        <div class="plot-container">
+            <div class="dropdown-group">
+                <div class="dropdown-line">
+                    <label for="x-axis1">X-Axis:</label>
+                    <select id="x-axis1"></select>
+                </div>
+                <div class="dropdown-line">
+                    <label for="y-axis1">Y-Axis:</label>
+                    <select id="y-axis1"></select>
+                </div>
+            </div>
+            <svg id="scatterplot1" class="scatterplot" width="500" height="400"></svg>
+        </div>
+
+        <div class="plot-container">
+            <div class="dropdown-group">
+                <div class="dropdown-line">
+                    <label for="x-axis2">X-Axis:</label>
+                    <select id="x-axis2"></select>
+                </div>
+                <div class="dropdown-line">
+                    <label for="y-axis2">Y-Axis:</label>
+                    <select id="y-axis2"></select>
+                </div>
+            </div>
+            <svg id="scatterplot2" class="scatterplot" width="500" height="400"></svg>
+        </div>
+
+        <div class="legend">
+            <button id="back-button">Back to Regions</button>
+            <div><span class="legend-color" style="background-color: red;"></span> Private</div>
+            <div><span class="legend-color" style="background-color: green;"></span> Public</div>
+        </div>
+
+        <div class="tooltip"></div>
+    </div>
+
+    <script src="page_2.js"></script>
+</body>
+
+</html>
