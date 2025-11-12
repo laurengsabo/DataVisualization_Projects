@@ -1,0 +1,21 @@
+#main {
+  margin: 10px 20px;
+}
+
+#main h3 {
+  font-family: "Serif";
+}
+
+.podium {
+  color: green;
+}
+
+#homerun-table {
+  font-family: sans-serif;
+}
+
+#homerun-table thead tr {
+  background-color: lightgrey;
+  text-align: center;
+  color: rgb(83, 83, 83);
+}

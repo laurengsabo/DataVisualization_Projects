@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Lab 0 - Activity 3</title>
+	<link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+	<div>
+		<svg id="single-bar">
+			<rect x="175" y="25" width="50" height="250" fill="steelblue"></rect>
+		</svg>
+	</div>
+
+	<div>
+		<svg id="bar-chart">
+			<rect x="0" y="150" width="50" height="150" fill="steelblue"></rect>
+			<rect x="50" y="75" width="50" height="225" fill="steelblue"></rect>
+			<rect x="100" y="75" width="50" height="225" fill="steelblue"></rect>
+			<rect x="150" y="0" width="50" height="300" fill="steelblue"></rect>
+			<rect x="200" y="0" width="50" height="300" fill="steelblue"></rect>
+			<rect x="250" y="75" width="50" height="225" fill="steelblue"></rect>
+			<rect x="300" y="75" width="50" height="225" fill="steelblue"></rect>
+			<rect x="350" y="150" width="50" height="150" fill="steelblue"></rect>
+		</svg>
+	</div>
+
+	<div>
+		<svg id="line-chart">
+			<line x1="25" y1="150" x2="75" y2="75" style="stroke: steelblue; fill: none; stroke-width: 3px" />
+
+			<line x1="75" y1="75" x2="125" y2="75" style="stroke: steelblue; fill: none; stroke-width: 3px" />
+
+			<line x1="125" y1="75" x2="175" y2="0" style="stroke: steelblue; fill: none; stroke-width: 3px" />
+
+			<line x1="175" y1="0" x2="225" y2="0" style="stroke: steelblue; fill: none; stroke-width: 3px" />
+
+			<line x1="225" y1="0" x2="275" y2="75" style="stroke: steelblue; fill: none; stroke-width: 3px" />
+
+			<line x1="275" y1="75" x2="325" y2="75" style="stroke: steelblue; fill: none; stroke-width: 3px" />
+
+			<line x1="325" y1="75" x2="375" y2="150" style="stroke: steelblue; fill: none; stroke-width: 3px" />
+		</svg>
+	</div>
+
+	<div>
+		<svg id="pie-chart">
+			<circle cx="200px" cy="150px" r="50" style="
+		    fill: none;
+		    stroke: black;
+		    stroke-width: 102; /* Slightly larger to simulate the border */
+		    transform: rotate(0deg);
+		    transform-origin: 175px 175px;"></circle>
+
+			<circle cx="200px" cy="150px" r="50" style="
+            fill: none;
+            stroke: yellow;
+            stroke-width: 100;
+            stroke-dasharray: 235.62 314.16;
+            transform: rotate(0deg);
+            transform-origin: 175px 175px;"></circle>
+
+			<!-- Note to the TA's, I couldn't figure out how to get the 25% chunk to have a black border. -->
+
+			<circle cx="200px" cy="200px" r="50" style="
+            fill: none;
+            stroke: green;
+            stroke-width: 100;
+            stroke-dasharray: 78.54 314.16;
+            transform: rotate(-90deg);
+            transform-origin: 175px 175px;"></circle>
+		</svg>
+	</div>
+</body>
+
+</html>
